@@ -61,7 +61,7 @@ describe App do
       expect(page.current_path).to eq("/puppy")
     end
 
-    it "displays the puppy information dynamically" do
+    xit "displays the puppy information dynamically" do
       # The \s below will match any whitespace
       expect(page).to have_text(/Name:\s+Butch/i)
       expect(page).to have_text(/Breed:\s+Mastiff/i)
